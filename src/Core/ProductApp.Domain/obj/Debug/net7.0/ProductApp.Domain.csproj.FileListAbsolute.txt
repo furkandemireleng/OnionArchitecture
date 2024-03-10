@@ -1,0 +1,12 @@
+/Users/furkandemirel/RiderProjects/OnionArchitecture/src/Core/ProductApp.Domain/bin/Debug/net7.0/ProductApp.Domain.deps.json
+/Users/furkandemirel/RiderProjects/OnionArchitecture/src/Core/ProductApp.Domain/bin/Debug/net7.0/ProductApp.Domain.dll
+/Users/furkandemirel/RiderProjects/OnionArchitecture/src/Core/ProductApp.Domain/bin/Debug/net7.0/ProductApp.Domain.pdb
+/Users/furkandemirel/RiderProjects/OnionArchitecture/src/Core/ProductApp.Domain/obj/Debug/net7.0/ProductApp.Domain.csproj.AssemblyReference.cache
+/Users/furkandemirel/RiderProjects/OnionArchitecture/src/Core/ProductApp.Domain/obj/Debug/net7.0/ProductApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/furkandemirel/RiderProjects/OnionArchitecture/src/Core/ProductApp.Domain/obj/Debug/net7.0/ProductApp.Domain.AssemblyInfoInputs.cache
+/Users/furkandemirel/RiderProjects/OnionArchitecture/src/Core/ProductApp.Domain/obj/Debug/net7.0/ProductApp.Domain.AssemblyInfo.cs
+/Users/furkandemirel/RiderProjects/OnionArchitecture/src/Core/ProductApp.Domain/obj/Debug/net7.0/ProductApp.Domain.csproj.CoreCompileInputs.cache
+/Users/furkandemirel/RiderProjects/OnionArchitecture/src/Core/ProductApp.Domain/obj/Debug/net7.0/ProductApp.Domain.dll
+/Users/furkandemirel/RiderProjects/OnionArchitecture/src/Core/ProductApp.Domain/obj/Debug/net7.0/refint/ProductApp.Domain.dll
+/Users/furkandemirel/RiderProjects/OnionArchitecture/src/Core/ProductApp.Domain/obj/Debug/net7.0/ProductApp.Domain.pdb
+/Users/furkandemirel/RiderProjects/OnionArchitecture/src/Core/ProductApp.Domain/obj/Debug/net7.0/ref/ProductApp.Domain.dll

@@ -1,0 +1,258 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/furkandemirel/RiderProjects/OnionArchitecture/src/WebApi/ProductApp.WebApi/ProductApp.WebApi.csproj": {}
+  },
+  "projects": {
+    "/Users/furkandemirel/RiderProjects/OnionArchitecture/src/Core/ProductApp.Application/ProductApp.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/furkandemirel/RiderProjects/OnionArchitecture/src/Core/ProductApp.Application/ProductApp.Application.csproj",
+        "projectName": "ProductApp.Application",
+        "projectPath": "/Users/furkandemirel/RiderProjects/OnionArchitecture/src/Core/ProductApp.Application/ProductApp.Application.csproj",
+        "packagesPath": "/Users/furkandemirel/.nuget/packages/",
+        "outputPath": "/Users/furkandemirel/RiderProjects/OnionArchitecture/src/Core/ProductApp.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/furkandemirel/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/furkandemirel/RiderProjects/OnionArchitecture/src/Core/ProductApp.Domain/ProductApp.Domain.csproj": {
+                "projectPath": "/Users/furkandemirel/RiderProjects/OnionArchitecture/src/Core/ProductApp.Domain/ProductApp.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.311/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/furkandemirel/RiderProjects/OnionArchitecture/src/Core/ProductApp.Domain/ProductApp.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/furkandemirel/RiderProjects/OnionArchitecture/src/Core/ProductApp.Domain/ProductApp.Domain.csproj",
+        "projectName": "ProductApp.Domain",
+        "projectPath": "/Users/furkandemirel/RiderProjects/OnionArchitecture/src/Core/ProductApp.Domain/ProductApp.Domain.csproj",
+        "packagesPath": "/Users/furkandemirel/.nuget/packages/",
+        "outputPath": "/Users/furkandemirel/RiderProjects/OnionArchitecture/src/Core/ProductApp.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/furkandemirel/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.311/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/furkandemirel/RiderProjects/OnionArchitecture/src/ProductApp.Persistence/ProductApp.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/furkandemirel/RiderProjects/OnionArchitecture/src/ProductApp.Persistence/ProductApp.Persistence.csproj",
+        "projectName": "ProductApp.Persistence",
+        "projectPath": "/Users/furkandemirel/RiderProjects/OnionArchitecture/src/ProductApp.Persistence/ProductApp.Persistence.csproj",
+        "packagesPath": "/Users/furkandemirel/.nuget/packages/",
+        "outputPath": "/Users/furkandemirel/RiderProjects/OnionArchitecture/src/ProductApp.Persistence/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/furkandemirel/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/furkandemirel/RiderProjects/OnionArchitecture/src/Core/ProductApp.Application/ProductApp.Application.csproj": {
+                "projectPath": "/Users/furkandemirel/RiderProjects/OnionArchitecture/src/Core/ProductApp.Application/ProductApp.Application.csproj"
+              },
+              "/Users/furkandemirel/RiderProjects/OnionArchitecture/src/Core/ProductApp.Domain/ProductApp.Domain.csproj": {
+                "projectPath": "/Users/furkandemirel/RiderProjects/OnionArchitecture/src/Core/ProductApp.Domain/ProductApp.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.311/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/furkandemirel/RiderProjects/OnionArchitecture/src/WebApi/ProductApp.WebApi/ProductApp.WebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/furkandemirel/RiderProjects/OnionArchitecture/src/WebApi/ProductApp.WebApi/ProductApp.WebApi.csproj",
+        "projectName": "ProductApp.WebApi",
+        "projectPath": "/Users/furkandemirel/RiderProjects/OnionArchitecture/src/WebApi/ProductApp.WebApi/ProductApp.WebApi.csproj",
+        "packagesPath": "/Users/furkandemirel/.nuget/packages/",
+        "outputPath": "/Users/furkandemirel/RiderProjects/OnionArchitecture/src/WebApi/ProductApp.WebApi/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/furkandemirel/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/sdk/7.0.311/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/furkandemirel/RiderProjects/OnionArchitecture/src/Core/ProductApp.Application/ProductApp.Application.csproj": {
+                "projectPath": "/Users/furkandemirel/RiderProjects/OnionArchitecture/src/Core/ProductApp.Application/ProductApp.Application.csproj"
+              },
+              "/Users/furkandemirel/RiderProjects/OnionArchitecture/src/ProductApp.Persistence/ProductApp.Persistence.csproj": {
+                "projectPath": "/Users/furkandemirel/RiderProjects/OnionArchitecture/src/ProductApp.Persistence/ProductApp.Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.311/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
