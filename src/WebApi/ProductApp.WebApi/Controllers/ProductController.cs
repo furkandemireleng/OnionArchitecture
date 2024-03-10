@@ -1,4 +1,6 @@
+using MediatR;
 using Microsoft.AspNetCore.Mvc;
+using ProductApp.Application.CQRS.Queries.GetAllProducts;
 using ProductApp.Application.Dto;
 using ProductApp.Application.Interfaces.Repository;
 
@@ -8,25 +10,20 @@ namespace ProductApp.WebApi.Controllers;
 [ApiController]
 public class ProductController:ControllerBase
 {
-    private readonly IProductRepository _productRepository; 
+    private readonly IMediator _mediator;
 
-    public ProductController(IProductRepository productRepository)
+    public ProductController(IMediator mediator)
     {
-        _productRepository = productRepository;
+        _mediator = mediator;
 
     }
 
     [HttpGet]
     public async Task<IActionResult> GetAllAsync()
     {
-        var products  = await _productRepository.GetAllAsync();
-        var result = products.Select(i => new ProductViewDto()
-        {
-            Id = i.Id,
-            Name = i.Name
-        }).ToList();
+        var query = new GetAllProductsQuery();
+        return Ok(await _mediator.Send(query));
         
-        return Ok(result);
     }
     
 }

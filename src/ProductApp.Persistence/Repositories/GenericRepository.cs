@@ -11,7 +11,7 @@ public class GenericRepository<T> : IGenericRepositoryAsync<T> where T : BaseEnt
 
     public GenericRepository(ApplicationDbContext dbContext)
     {
-        this.dbContext = this.dbContext;
+        this.dbContext = dbContext;
     }
 
     public async Task<List<T>> GetAllAsync()

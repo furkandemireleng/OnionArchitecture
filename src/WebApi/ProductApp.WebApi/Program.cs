@@ -1,3 +1,4 @@
+using ProductApp.Application;
 using ProductApp.Persistence;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -6,6 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddPersistanceServices();
 builder.Services.AddControllers();
+builder.Services.AddApplicationRegistiration();
 
 var app = builder.Build();
 
